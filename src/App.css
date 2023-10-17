@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #282c34;
+}
+
+.container {
+  color: white;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.header {
+  font-size: 28px;
+  margin-top: 1.6em;
+}
+
+.sub-header {
+  margin: 1em 0;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.6em;
+}
+
+.options-container label {
+  margin-bottom: 1em;
+}
+
+.show-filter {
+  font-size: 11px;
+  color: #8b8a97;
+  text-align: left;
+  margin: 1em 0;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.btn {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-darkblue {
+  background-color: #1e345f;
+  color: white;
+}
+
+.btn-darkblue:hover {
+  background-color: #213a6d;
+}
+
+.card {
+  background-color: #c0bbf0;
+  margin: 1em 0;
+  padding-bottom: 0.5em;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  color: #000;
+}
+
+.card-header {
+  margin-bottom: 15px;
+}
+
+.card-date {
+  background-color: rgb(19, 10, 95);
+  text-align: left;
+  padding: 0.1em 0.6em;
+  color: #fff;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.false {
+  color: rgb(172, 5, 5);
+}
+
+.true {
+  color: rgb(6, 110, 6);
+}
+
+.card-link {
+  color: #000;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.card-link:hover {
+  color: #333638;
+}
+
+.card-list {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
